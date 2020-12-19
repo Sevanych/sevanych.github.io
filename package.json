@@ -1,0 +1,28 @@
+{
+  "name": "sevanych.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parcel": "parcel",
+    "start": "npm run parcel src/index.html",
+    "build": "npm run parcel build src/index.html",
+    "release": "node publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sevanych/sevanych.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sevanych/sevanych.github.io/issues"
+  },
+  "homepage": "https://github.com/Sevanych/sevanych.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel": "^1.12.4",
+    "typescript": "^4.0.5"
+  }
+}
